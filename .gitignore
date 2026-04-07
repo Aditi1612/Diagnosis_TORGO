@@ -1,0 +1,19 @@
+# Datasets
+*.wav
+*.mp3
+*.mp4
+*.csv
+*.h5
+*.hdf5
+*.pkl
+*.npy
+*.npz
+TORGO_database/
+datasets_process/data/
+wandb/
+output/
+*.pt
+*.pth
+*.ckpt
+wandb/
+__pycache__/

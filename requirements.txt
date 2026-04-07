@@ -1,0 +1,51 @@
+# DeepThink-Speech Requirements
+# Core dependencies for dysarthria detection with explainable AI
+
+# Deep Learning
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Audio Processing
+librosa>=0.10.0
+soundfile>=0.12.0
+audioread>=3.0.0
+
+# Acoustic Feature Extraction
+praat-parselmouth>=0.4.3  # Formants, jitter, shimmer, HNR
+
+# Phoneme-Level Alignment (MFA)
+# Install via conda: conda install -c conda-forge montreal-forced-aligner
+# Or via pip (may have issues on some systems):
+# montreal-forced-aligner>=2.2.0
+praat-textgrids>=0.1.0  # For parsing TextGrid files
+
+# Scientific Computing
+numpy>=1.24.0
+scipy>=1.10.0
+pandas>=2.0.0
+scikit-learn>=1.2.0
+
+# Visualization & Logging
+matplotlib>=3.7.0
+seaborn>=0.12.0
+tensorboard>=2.12.0
+tqdm>=4.65.0
+wandb>=0.13.0
+termcolor>=2.2.0
+
+# LLM Integration (optional)
+transformers>=4.30.0
+accelerate>=0.20.0
+sentencepiece>=0.1.99
+
+# Utilities
+python-dotenv>=1.0.0
+pyyaml>=6.0
+
+# Data Processing
+h5py>=3.8.0
+
+# Testing (optional)
+pytest>=7.3.0
+pytest-cov>=4.1.0
