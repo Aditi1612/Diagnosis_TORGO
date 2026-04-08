@@ -1,6 +1,4 @@
-# DeepThink-Speech
-
-**Automated Dysarthria Detection With Clinician-Interpretable Explanations**
+**Automated Dysarthria Detection With Clinician-Interpretable Explanations: Validation of a Self-Supervised Speech Model With Speech-Language Pathologists**
 
 A two-stage framework combining a fine-tuned Wav2Vec2 classifier with LLM-based chain-of-thought reasoning to produce structured clinical explanations for dysarthric speech alongside diagnostic predictions.
 
